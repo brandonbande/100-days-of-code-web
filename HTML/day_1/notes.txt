@@ -1,0 +1,96 @@
+Using Traversy Short Course
+
+-HTML on itself is very ugly
+-more of a skeleton
+
+HTML is Hyper Text Markup Language and is not a Programming Language
+-it has no logic , just structure and presentation
+- building block of the web..All web rely on HTML
+- not enough to secure a job with it
+
+What you need
+-Browser
+-Text Editor 
+irregardless of OS
+
+use (VS Code) - personal preference
+
+-Download and installation notes
+
+Starting on HTML
+-no special server and run it locally
+-.html extension
+-index.html (starting point of a site(root file))
+
+HTML File Creation 
+-index.html (open with VS Code)
+-Type Hello World , save and run
+-Should show text in Browser
+Tags
+-Basic building blocks
+-Sorrounded by angle brackets
+-Come in pairs (opening and close)
+<br> self closing tag
+
+structure
+
+-Everything in HTML tag
+    -head tag (external links etc)
+         -no effect on the output.
+         -title , meta-data , descriptions
+    -body
+        - actual content
+
+    -Doctype declaration(shows type of HTML)
+
+Use Ctrl + U to view source Code
+is shows the generated HTML (from backend or static pages)
+
+Use Dev Tools
+
+<!-- for comments --!>
+
+Headings - bigger bold text with some padding
+
+P for paragraphs
+ -paragraphs have margins (space at top and bottom)
+ - displayed as block
+
+Block-Level elements vs inline elements
+ -for block you start on a new line  inline is otherwise
+ -Block (p , div , head , body) they take full width , inline(a,img,span) only take required space
+
+Inline - Work with text
+ <strong> tag - usually bold.used to make text stand output
+ <em> - usually italic
+ <a> - soround object with an <a> tag to link(connect ) it elsewhere..Another page maybe
+    -href is the location of the page you want to link to
+     -target opens on a blank page
+
+Tags and Attributes
+Attributes 
+    -provide information about a tag ie the href and the target
+    -placed in the start tag
+    -stores key value pairs
+    -value is in quotes
+
+list 
+Two types - unordered and odered
+    -unordered = <ul> tag
+        -bulleted points
+        usually used for navigation
+
+    -odered = <ol> tag
+        -numbered points
+ use the tag to initialise the list and the <li> tag for each element
+
+ Tables 
+ <table> tag to create table 
+    -<thead>  tag to create table heading
+        <tr> tag to create table rows
+            <th> tag to create table heading
+    -<tbody>
+        <tr>
+            <td> tag to create table data
+
+Do not use tables for layout
